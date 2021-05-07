@@ -115,6 +115,7 @@
     .about__images {
         display: flex;
         justify-content: center;
+        flex-wrap: wrap;
     }
     .none__container{
         flex-direction: column;
@@ -139,6 +140,9 @@
     .services__title,
     .services__txt{
         max-width: unset;
+    }
+    .newsletter__letter{
+        flex-wrap: wrap;
     }
 }
 /* @media (max-width: 736px) {} */
@@ -192,9 +196,7 @@
         font-size: 20px;
         text-align: center;
     }
-    .about__photo{
-        width: 100px;
-    }
+    
     .about__words{
         font-size: 11px;
     }
@@ -204,9 +206,9 @@
     .about__title::after{
         width: 0;
     }
-    .newsletter__letter{
+    /* .newsletter__letter{
         flex-direction: column;
-    }
+    } */
     .newsletter__title{
         margin-bottom: 15px;
     }
